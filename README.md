@@ -11,7 +11,7 @@
 
 The `main.py` file has a Python script that executes a simple task:
 - Read a CSV file (like Excel, but just data; no formatting)
-    - The file is `articles.csv`; it has four columns: `title`, `date`, `category`, `author`, and `pages`
+    - The file is `articles.csv`; it has five columns: `title`, `date`, `category`, `author`, and `pages`
     - Each row has data about one article; `t1` stands for "title1", `a1` for "author1" etc
 - Store the data in a list (array) of dicts (in Python, _objects_ are called _dicts_, short for _dictionary_)
 - Filter the data based on some input

@@ -1,6 +1,6 @@
 import csv
-
-
+from manipulator import Manipulator
+import json
 class CSV_Manager:
     def __init__(self, filename):
         self.filename = filename
@@ -22,3 +22,17 @@ class CSV_Manager:
             all_data.append(data_dict)
 
         return all_data
+   
+   #extraaaaaaaaaa
+    def find_by_type(self):
+        cnt = 0
+        newdict={}
+        articles = self.get_csv_as_dicts()
+        print("iam atr", articles)
+        main = Manipulator(articles)
+        print("iam main: ",main)
+        # newdict["author"]
+        
+        
+       
+        
